@@ -1,9 +1,11 @@
 import unittest
 from eating_cookies import eating_cookies
 
+
 class Test(unittest.TestCase):
 
   def test_eating_cookies_small_n(self):
+    
     self.assertEqual(eating_cookies(0), 1)
     self.assertEqual(eating_cookies(1), 1)
     self.assertEqual(eating_cookies(2), 2)
